@@ -52,5 +52,37 @@ footer {
   color: #aaa;
   text-align: center;
   padding: 1rem;
-}
+} 
+
+<body>
+  <header>
+    <h1>My Cool Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Welcome!</h2>
+      <p>This is an introduction.</p>
+      <!-- Image inserted here -->
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wargamer.com%2Fwarhammer-40k%2Fwhat-is-warhammer-40k&psig=AOvVaw0-H53NNCS4U9-D56TrSL0W&ust=1760409688250000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCPCc0qaToJADFQAAAAAdAAAAABAE" alt="Descriptive text" />
+    </section>
+
+    <section class="highlight">
+      <h2>Featured Image</h2>
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wargamer.com%2Fwarhammer-40k%2Fwhat-is-warhammer-40k&psig=AOvVaw0-H53NNCS4U9-D56TrSL0W&ust=1760409688250000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCPCc0qaToJADFQAAAAAdAAAAABAL" alt="Another description" />
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Your Name
+  </footer>
+</body>
+
 
